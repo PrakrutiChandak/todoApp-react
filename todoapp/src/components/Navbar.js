@@ -7,9 +7,9 @@ const Navbar = (props) => {
     // components have access to props only when they have Router tag, all other components need withRouter to
     // access the props, therefore while exporting we add withRouter
     // one way to make a component higher order is by using withRouter making it supercharged component
-    setTimeout(() => {
-        props.history.push('/about')
-    }, 20000);
+    // setTimeout(() => {
+    //     props.history.push('/about')
+    // }, 20000);
     return (
         <nav className="nav-wrapper red darken-3">
             <div className="container">
